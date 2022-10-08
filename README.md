@@ -70,7 +70,7 @@ The following tools were used in building the project:
 
 #### **Server**  ([Prisma](https://www.prisma.io/)  +  [TypeGraphQL](https://prisma.typegraphql.com/docs/basics/installation/))
 
--   **[SQLLite](https://www.sqlite.org/index.html)**
+-   **[SQLite](https://www.sqlite.org/index.html)**
 
 > See the file  [package.json](package.json)
 
