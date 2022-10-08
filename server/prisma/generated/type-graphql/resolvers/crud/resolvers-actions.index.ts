@@ -1,0 +1,11 @@
+export { AggregateEntryResolver } from "./Entry/AggregateEntryResolver";
+export { CreateOneEntryResolver } from "./Entry/CreateOneEntryResolver";
+export { DeleteManyEntryResolver } from "./Entry/DeleteManyEntryResolver";
+export { DeleteOneEntryResolver } from "./Entry/DeleteOneEntryResolver";
+export { FindFirstEntryResolver } from "./Entry/FindFirstEntryResolver";
+export { FindManyEntryResolver } from "./Entry/FindManyEntryResolver";
+export { FindUniqueEntryResolver } from "./Entry/FindUniqueEntryResolver";
+export { GroupByEntryResolver } from "./Entry/GroupByEntryResolver";
+export { UpdateManyEntryResolver } from "./Entry/UpdateManyEntryResolver";
+export { UpdateOneEntryResolver } from "./Entry/UpdateOneEntryResolver";
+export { UpsertOneEntryResolver } from "./Entry/UpsertOneEntryResolver";
