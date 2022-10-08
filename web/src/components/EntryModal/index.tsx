@@ -111,16 +111,16 @@ export function EntryModal(props: EntryModalProps) {
             <input name="id" type="text" className="border-2" defaultValue={data ? data.id : (entries.length+1).toString() } readOnly />
 
             <label>Title</label>
-            <input name="title" type="text" className="border-2" defaultValue={data ? data.title : "" } />
+            <input name="title" type="text" className="border-2" defaultValue={data ? data.title : "" } required />
 
             <label>Description</label>
-            <input name="description" type="text" className="border-2" defaultValue={data ? data.description : "" } />
+            <input name="description" type="text" className="border-2" defaultValue={data ? data.description : "" } required />
 
             <label>Value</label>
-            <input name="value" type="text" className="border-2" defaultValue={valueFormatted} />
+            <input name="value" type="text" className="border-2" defaultValue={valueFormatted} required />
 
             <label>Date</label>
-            <input name="date" type="date" className="border-2" defaultValue={data ? data.date : "" } />
+            <input name="date" type="date" className="border-2" defaultValue={data ? data.date : "" } required />
 
             <label>Type</label>
             <select name="type" className="border-2" defaultValue={data ? data.type : "receive" }>
@@ -129,7 +129,7 @@ export function EntryModal(props: EntryModalProps) {
             </select>
 
             <footer className="flex w-full justify-end gap-2 mt-4">
-              <button type="submit" className=" bg-[#764AF1] p-2 w-36 text-white">Salvar</button>
+              <button type="submit" className=" bg-[#764AF1] p-2 w-36 text-white">Save</button>
             </footer>
           </form>
 
